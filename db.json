@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Yusuf DURDURAN"
+    },
+    {
+      "id": "2",
+      "name": "Gülsüm ÇELİK"
+    }
+  ],
+  "albums": [
+    {
+      "userId": "1",
+      "title": "Amasya",
+      "id": "15"
+    },
+    {
+      "id": "cb1f",
+      "userId": "1",
+      "title": "Practical Steel Tuna"
+    },
+    {
+      "id": "325e",
+      "userId": "2",
+      "title": "Gorgeous Bronze Shoes"
+    }
+  ],
+  "photos": [
+    {
+      "albumId": 15,
+      "url": "https://loremflickr.com/150/150/abstract?lock=20625",
+      "id": 1
+    },
+    {
+      "id": "eb8d",
+      "albumId": "15",
+      "url": "https://loremflickr.com/150/150/abstract?lock=4620341978595328"
+    },
+    {
+      "id": "3a30",
+      "albumId": "15",
+      "url": "https://loremflickr.com/150/150/abstract?lock=7598238397890560"
+    },
+    {
+      "id": "c12d",
+      "albumId": "15",
+      "url": "https://loremflickr.com/150/150/abstract?lock=1988719384985600"
+    },
+    {
+      "id": "d8b2",
+      "albumId": "325e",
+      "url": "https://loremflickr.com/150/150/abstract?lock=3178157710508032"
+    }
+  ]
+}

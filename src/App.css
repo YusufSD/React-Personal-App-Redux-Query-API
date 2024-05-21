@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+span {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.arrangement {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 20px;
+}
+
+.arrangement h1 {
+  font-size: 20px;
+}
+
+.panelDiv {
+  background-color: rgb(241, 206, 206);
+  border-radius: 30px;
+  margin: 0px 10px;
+}
+.progressbarDiv {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-bar {
+  border-radius: 50%;
+  background: radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(hotpink 75%, pink 0);
+}
+
+.photoDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.photoItem {
+  margin: 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.delete {
+  position: absolute;
+  font-size: 30px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
